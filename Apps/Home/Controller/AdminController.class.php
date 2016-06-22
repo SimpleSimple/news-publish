@@ -27,6 +27,8 @@ class AdminController extends Controller{
         //获取用户参数
         $username = I("post.username", "", "addslashes_modified");
         $password = I("post.password", "", "md5");
+        // var_dump($username." => ".$password);
+        // die;
 
         if (empty($username) || empty($password) ){
             $this->error("密码或用户名不能为空。");

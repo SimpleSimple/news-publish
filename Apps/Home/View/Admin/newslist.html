@@ -4,7 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>后台管理系统</title>
 
-	<link rel="stylesheet" href="http://localhost/news_publish/img/css/layout.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="__CSS__/layout.css" type="text/css" media="screen" />
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" href="http://localhost/news_publish/img/css/ie.css" type="text/css" media="screen" />
 	<script src="../../img/js/html5.js"></script>
@@ -93,7 +93,7 @@
 			    				<td>{$vo.id}</td>
 			    				<td>{$vo.title}</td>
 			    				<td>{$vo.author}</td>
-			    				<td><input type="image" src="http://localhost/news_publish/img/images/icn_edit.png" title="Edit" onclick="window.location.href='index.php?c=admin&a=newsedit&id={$vo.id}'"><input type="image" src="http://localhost/news_publish/img/images/icn_trash.png" title="Trash" onclick="window.location.href='index.php?c=admin&a=newsdel&id={$vo.id}'"></td>
+			    				<td><input type="image" src="__IMG__/icn_edit.png" title="Edit" onclick="window.location.href='index.php?c=admin&a=newsedit&id={$vo.id}'"><input type="image" src="__IMG__/icn_trash.png" title="Trash" onclick="window.location.href='index.php?c=admin&a=newsdel&id={$vo.id}'"></td>
 						</tr>
 					</volist>
 					</tbody>
